@@ -1,0 +1,12 @@
+n=int(input())
+print("The date of Submission of the book is:",n)
+if n==1:
+    print ("No fine")
+elif n>1 and n<=5:
+    print("100 Rupess fine for late submission")
+elif n>5 and n<=8:
+    print("200 Rupess fine for late submission")
+elif n>8 and n<=12:
+    print("250 Rupess fine for late submission")
+else:
+    print("300 fine for late submission")
